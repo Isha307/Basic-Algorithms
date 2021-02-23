@@ -20,8 +20,11 @@ while True:
       res = num1 * num2
       print("\nResult =", res)
    elif choice==4:
-      res = num1 / num2
-      print("\nResult =", res)
+      if(num2 != 0):
+         res = num1 / num2
+         print("\nResult =", res)
+      else:
+         print("Zero Division Error")
    elif choice==5:
       break
    else:
