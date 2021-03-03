@@ -7,10 +7,10 @@ In every iteration of selection sort, the minimum element (considering ascending
 
 #include <bits/stdc++.h>
 
-void swap(int *a, int *b){
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+void swap(int &a, int &b){
+    int temp = a;
+    a = b;
+    b = temp;
 }
 void selectionSort(int arr[], int len){
     int i,j,min_ind;
@@ -20,7 +20,7 @@ void selectionSort(int arr[], int len){
             if(arr[j] < arr[min_ind])
                 min_ind = j;
         }
-        swap(&arr[min_ind], &arr[i]); 
+        swap(arr[min_ind], arr[i]); 
     }
 }
 void printArray(int arr[], int size){  
