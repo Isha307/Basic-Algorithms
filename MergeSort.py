@@ -1,5 +1,11 @@
 # MergeSort.py
 
+def user_input():
+	user_data = input("Enter the elements in the array to be sorted (separated by spaces): ")
+	arr = user_data.split()
+	print(f"The input array was: {arr}\nThe sorted array is: {merge_sort(arr)}")
+	
+
 def merge_sort(arr):
 	if len(arr) > 1:
 		midpoint = len(arr)//2
@@ -30,4 +36,7 @@ def merge_sort(arr):
 			k += 1
 
 	return arr
+
+if __name__ == "__main__":
+	user_input()
 	
