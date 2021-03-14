@@ -13,6 +13,13 @@
 
 #include <iostream>
 
+/* 
+    Uses bubble sort to sort a passed array of integers with a given size
+
+    Parameters:
+        arr: c array[int], array that will be sorted
+        arr_size: int, size of the array
+*/
 void bubble_sort(int arr[], int arr_size){
     for (int i = (arr_size - 1); i > 0; --i){
         for (int j = 0; j < i; ++j){
@@ -24,6 +31,7 @@ void bubble_sort(int arr[], int arr_size){
 }
 
 
+// Main to demonstrate the sorting algorithm's functionality
 int main() 
 {
     const int SIZE = 10;
