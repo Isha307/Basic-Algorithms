@@ -31,14 +31,27 @@ void radixsort(int arr[], int n)
         countingSort(arr, n, exp); 
 } 
 
+void printArray(int arr[], int n) 
+{ 
+	for (int i=0; i<n; ++i) 
+		cout << arr[i] << " "; 
+	cout << "\n"; 
+} 
+
 int main() 
 { 
-    int arr[] = { 319,212,6,8,100,50 }; 
-    int n = sizeof(arr) / sizeof(arr[0]); 
+
+    int n;
+    cout<<"Enter size of array\n";
+	cin>>n;
+	cout<<"Enter elements of array\n";
+	int arr[n];
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
     radixsort(arr, n); 
-   
-    for (int i = 0; i < n; i++) 
-        cout << arr[i] << " ";
+    cout << "Sorted array is:\n"; 
+	printArray(arr, n); 
         
     return 0; 
 } 
