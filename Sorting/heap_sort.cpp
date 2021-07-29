@@ -44,7 +44,6 @@ void printArray(int arr[], int n)
  
 int main() 
 { 
-
 	int n;
 	cout<<"Enter size of array\n";
 	cin>>n;
@@ -53,7 +52,6 @@ int main()
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}
-
 	cout<<"Original Unsorted array is:\n";
 	printArray(arr,n);
 	heapSort(arr, n); 
