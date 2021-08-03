@@ -30,7 +30,6 @@ void radixsort(int arr[], int n)
     for (int exp = 1; mx / exp > 0; exp *= 10) 
         countingSort(arr, n, exp); 
 } 
-
 void printArray(int arr[], int n) 
 { 
 	for (int i=0; i<n; ++i) 
@@ -40,18 +39,21 @@ void printArray(int arr[], int n)
 
 int main() 
 { 
-
-    int n;
-    cout<<"Enter size of array\n";
+  int n;
+  cout<<"Enter size of array\n";
 	cin>>n;
 	cout<<"Enter elements of array\n";
 	int arr[n];
-	for(int i=0;i<n;i++){
+	for(int i=0;i<n;i++)
+  {
 		cin>>arr[i];
 	}
-    radixsort(arr, n); 
-    cout << "Sorted array is:\n"; 
+  cout <<"Original Unsorted array is:\n"; 
+	printArray(arr, n); 
+  radixsort(arr, n); 
+  cout << "Sorted array is:\n"; 
 	printArray(arr, n); 
         
-    return 0; 
+  return 0; 
 } 
+
