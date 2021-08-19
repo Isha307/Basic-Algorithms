@@ -1,9 +1,9 @@
-# Good First Issue
+# Basic-Algorithms
 
 ## Contributing
 Pull requests are welcome. 
 
-You can open an issue also and discuss what you would like to add.
+**You can open an issue also and discuss what you would like to add.**
 
 # How to contribute.
 - Fork this repository.
