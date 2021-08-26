@@ -1,5 +1,7 @@
 # Basic-Algorithms
 
+1. [Sorting](https://github.com/Isha307/Basic-Algorithms/tree/master/Sorting)
+
 ## Contributing
 Pull requests are welcome. 
 
