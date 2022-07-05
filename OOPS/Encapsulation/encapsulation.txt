@@ -1,0 +1,3 @@
+Encapsulation -> Binding data with method
+
+Data or variables are private but Methods are Public.
