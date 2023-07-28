@@ -1,0 +1,33 @@
+The inheritance in which a single derived class is inherited from a
+single base class is known as the Single Inheritance.
+
+In c++:
+class ABC: private abc{
+    PRIVATE DERIVATION
+}
+
+class ABC: public abc{
+    PUBLLIC DERIVATION
+}
+
+class ABC: protected abc{
+    PROTECTED DERIVATION
+}
+
+class ABC: abc{
+    PRIVATE DERIVATION by default
+}
+
+In python:
+class abc:
+  pass
+class ABC(abc):
+  pass
+
+In JAVA:
+class abc{
+    methods
+}
+class ABC extends abc{
+    methods with additional feature
+}

@@ -1,0 +1,7 @@
+Class: Class is a set of objects which shares common characteristics/ behavior and common properties/ attributes. 
+Class is not a real-world entity. 
+It is just a template or blueprint or prototype from which objects are created.
+
+The class members declared as private can be accessed only by the functions inside the base class. 
+The class members declared as public can be accessed from anywhere. 
+The class members declared as protected can be accessed in the base class and its derived classes.

@@ -1,0 +1,1 @@
+The process of combining more than one type of Inheritance together while deriving subclasses in a program is called a Hybrid Inheritance.

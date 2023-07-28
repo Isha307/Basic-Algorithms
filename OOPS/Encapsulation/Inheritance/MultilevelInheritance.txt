@@ -1,0 +1,21 @@
+Multilevel inheritance is when a derived class inherits properties from a base class, and then another class inherits from that derived class.
+
+In c++:
+class A{}
+class B: public A{}
+class C: puclic B{}
+
+In python:
+class A:
+  pass
+class B(A):
+  pass
+class C(B):
+  pass
+
+In JAVA:
+class A{}
+class B extends A{}
+class c extends B{
+    has the properties of all the class.
+}

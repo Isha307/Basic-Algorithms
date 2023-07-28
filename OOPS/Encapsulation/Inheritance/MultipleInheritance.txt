@@ -1,0 +1,21 @@
+Multiple inheritance is a feature of some object-oriented computer programming languages 
+in which an object or class can inherit features from more than one parent object or parent class.
+
+In c++:
+class A{}
+class B{}
+class C: public A, public B{
+
+}
+
+In python:
+class A:
+  pass
+class B:
+  pass:
+class C(A,B):
+  pass
+
+In JAVA:
+Note: Java doesn’t support Multiple Inheritance
+It will give Compilation Error.

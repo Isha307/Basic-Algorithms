@@ -1,0 +1,22 @@
+Hierarchical Inheritance refers to the type of inheritance that has a hierarchical structure of classes. 
+A single base class can have multiple derived classes, 
+and other subclasses can further inherit these derived classes, forming a hierarchy of classes.
+
+
+In c++:
+class A{}
+class B: public A{}
+class C: public A{}
+
+In python:
+class A:
+   pass
+class B(A):
+   pass
+class C(A):
+   pass
+
+In JAVA:
+class A{}
+class B extends A{}
+class C extends A{}
