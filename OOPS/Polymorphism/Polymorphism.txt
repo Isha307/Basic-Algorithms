@@ -1,0 +1,23 @@
+Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+Types of Polymorphism
+  => Compile-time Polymorphism
+  => Runtime Polymorphism
+
+1. Compile-Time Polymorphism
+This type of polymorphism is achieved by function overloading or operator overloading.
+
+A. Function Overloading
+Functions can be overloaded by changing the number of arguments or/and changing the type of arguments
+
+B. Operator Overloading
+
+2. Runtime Polymorphism
+This type of polymorphism is achieved by Function Overriding. 
+Late binding and dynamic polymorphism are other names for runtime polymorphism.
+
+A. Function Overriding
+
+Function Overriding occurs when a derived class has a definition for one of the member functions of the base class. 
+That base function is said to be overridden.
+
